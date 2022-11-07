@@ -17,11 +17,11 @@ const Navbar = () => {
 					>
 						<AiOutlineMenu size={30} />
 					</div>
-					<h1 className='text-2xl sm:text-3xl lg:text-4xl px-2'>
-						Food<span className='font-bold text-blue-700'>Lord</span>
+					<h1 className='font-bold text-2xl sm:text-3xl lg:text-4xl px-2'>
+						Food<span className=' text-red-600'>HUB</span>
 					</h1>
 					<div className='hidden lg:flex items-center bg-gray-300 rounded-full p-1 text-[14] uppercase font-semibold'>
-						<p className='bg-blue-700 rounded-full p-1'>Delivery</p>
+						<p className='bg-red-600 text-white rounded-full p-1'>Delivery</p>
 						<p className='p-1'>Pickup</p>
 					</div>
 				</section>
@@ -38,7 +38,7 @@ const Navbar = () => {
 				</section>
 
 				<section>
-					<button className='bg-blue-700 hidden md:flex items-center py-2 border-none rounded-full'>
+					<button className='bg-red-600 hidden md:flex items-center py-2 border-none rounded-full'>
 						<BsFillCartFill
 							className='mr-2'
 							size={20}
@@ -60,7 +60,7 @@ const Navbar = () => {
 						size={25}
 					/>
 					<h2 className='text-2xl p-4'>
-						Food<span className='font-bold text-blue-700'>Lord</span>
+						Food<span className='font-bold text-red-600'>HUB</span>
 					</h2>
 					<nav>
 						<ul className='flex flex-col p-4 text-gray-800'>
